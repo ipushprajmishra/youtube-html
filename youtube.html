@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="styles/sidebar.css" />
 
     <link rel="stylesheet" href="styles/video.css" />
     <link rel="stylesheet" href="styles/general.css" />
@@ -23,6 +24,7 @@
         <input class="search-bar" type="search" placeholder="Search" />
         <button class="search-button">
           <img class="search-icon" src="images/search.svg" />
+          <div class="tool-tip">Search</div>
         </button>
         <button class="voice-search-button">
           <img class="voice-search-icon" src="images/voice-search-icon.svg" />
@@ -31,15 +33,50 @@
       <div class="right-section">
         <img class="upload-icon" src="images/upload.svg" />
         <img class="youtube-apps-icon" src="images/youtube-apps.svg" />
-        <img class="notifications-icon" src="images/notifications.svg" />
+        <div class="notification-icon-wrapper">
+          <img class="notifications-icon" src="images/notifications.svg" />
+          <div class="notification-count">6</div>
+        </div>
+
         <img class="current-user-picture" src="images/my-channel.jpeg" />
       </div>
     </div>
+    <div class="sidebar">
+      <div class="side-link">
+        <img class="icon-svg" src="images/home.svg" />
+        <div class="icon-text">Home</div>
+      </div>
 
+      <div class="side-link">
+        <img class="icon-svg" src="images/explore.svg" />
+      <div class="icon-text">Explore</div>
+      </div>
+
+      <div class="side-link">
+        <img class="icon-svg" src="images/subscriptions.svg" />
+        <div class="icon-text">Subscription</div>
+      </div>
+
+      <div class="side-link">
+        <img class="icon-svg" src="images/originals.svg" />
+         <div class="icon-text">Originals</div>
+      </div>
+
+      <div class="side-link">
+        <img class="icon-svg" src="images/youtube-music.svg" />
+         <div class="icon-text">Youtube Music</div>
+      </div>
+
+      <div class="side-link">
+        <img class="icon-svg" src="images/library.svg" />
+         <div class="icon-text">Library</div>
+      </div>
+    </div>
     <div class="video-grid">
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="./images/thumbnail-1.webp" />
+          <div class="video-time">14:56</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-icon">
@@ -58,6 +95,7 @@
       <div class="video-preview">
         <div class="thumbnail-row">
           <img class="thumbnail" src="./images/thumbnail-2.webp" />
+          <div class="video-time">5:09</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-icon">
@@ -84,6 +122,55 @@
             </p>
             <p class="video-author">Marques Browniee</p>
             <p class="video-stats">3.4M views &#183; 6 Months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./images/thumbnail-4.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-icon">
+            <img class="profile-picture" src="./images/channel-4.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./images/thumbnail-5.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-icon">
+            <img class="profile-picture" src="./images/channel-5.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai
+            </p>
+            <p class="video-author">Marques Browniee</p>
+            <p class="video-stats">3.4M views &#183; 6 Months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="./images/thumbnail-6.webp" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-icon">
+            <img class="profile-picture" src="./images/channel-6.jpeg" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Try Not To Laugh Challenge #9</p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">19M views &#183; 4 years ago</p>
           </div>
         </div>
       </div>
